@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
     return nil
   end
   #i = 0 
-  name_hash.collect do |key, value|
-    value 
+  name_hash.each do |key, value|
+     
     #i += 1 
       
 end
