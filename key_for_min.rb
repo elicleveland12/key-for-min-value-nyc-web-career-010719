@@ -5,12 +5,9 @@ def key_for_min_value(name_hash)
   if name_hash = {}
     return nil
   end
-  i = 0 
-  name_hash.each do |key, value|
-     
-    if value[i] - value[i + 1]
-      
-    end
-    i += 1 
+  #i = 0 
+  name_hash.collect do |key, value|
+    value 
+    #i += 1 
       
 end
